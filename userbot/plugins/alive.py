@@ -8,7 +8,7 @@ from . import ALIVE_NAME, CMD_HELP, StartTime, catdef, catversion, mention, repl
 
 DEFAULTUSER = ALIVE_NAME or "cat"
 CAT_IMG = Config.ALIVE_PIC
-CUSTOM_ALIVE_TEXT = Config.CUSTOM_ALIVE_TEXT or " Alive and Functioning"
+CUSTOM_ALIVE_TEXT = Config.CUSTOM_ALIVE_TEXT or "Alive and Functioning"
 EMOJI = Config.CUSTOM_ALIVE_EMOJI or "  ✥ "
 
 
