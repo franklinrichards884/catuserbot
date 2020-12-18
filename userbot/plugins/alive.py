@@ -54,7 +54,7 @@ async def amireallyalive(alive):
     reply_to_id = await reply_id(alive)
     cat_caption = f"**Catuserbot is Up and Running**\n"
     cat_caption += f"**  -Telethon version :** `{version.__version__}\n`"
-    cat_caption += f"**  -Catuserbot Version :** `{catversion}`\n"
+    cat_caption += f"**  -Franklins Custom Bot Version :** `1.00`\n"
     cat_caption += f"**  -Python Version :** `{python_version()}\n`"
     cat_caption += f"**  -Master:** {mention}\n"
     results = await bot.inline_query(tgbotusername, cat_caption)  # pylint:disable=E0602
